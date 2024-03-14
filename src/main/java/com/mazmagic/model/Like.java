@@ -12,7 +12,6 @@ public class Like {
     private Long id;
     @ManyToOne
     private User user;
-
     @ManyToOne
     private Twit twit;
 
